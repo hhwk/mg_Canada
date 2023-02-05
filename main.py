@@ -282,7 +282,7 @@ if menu=='Стартовая страница':
         eco4 = 100
     col1, col2, col3, col4 = st.columns(4)
     col1.metric('🏠' + city['shit1'] + f'{city_1}','⚙️' + str(60 + 10 * city['up1']) + '%' + ' 🌳 ' + str(eco1) + '%')
-    col2.metric('🏠' + city['shit2'] + f'{city_2}','⚙️' + str(50 + 10 * city['up2']) + '%' + ' 🌳 ' + str(eco2) + '%')
+    col2.metric('🏚️' + city['shit2'] + f'{city_2}','⚙️' + str(0) + '%' + ' 🌳 ' + str(0) + '%')
     col3.metric('🏚️' + city['shit3'] + f'{city_3}','⚙️' + str(0) + '%' + ' 🌳 ' + str(0) + '%')
     col4.metric('🏠' + city['shit4'] + f'{city_4}','⚙️' + str(40 + 10 * city['up4']) + '%' + ' 🌳 ' + str(eco4) + '%')
     st.image(pp['Graph1'])
